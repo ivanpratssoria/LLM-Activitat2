@@ -1,0 +1,76 @@
+/* Estil general de la pagina */
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+
+/* Estil general dels paragrafs */
+p {
+    line-height: 125%;
+}
+
+
+/* Titol de primer nivell */
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Titols de segon nivell */
+h2 {
+    color: #cc22ff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Titols de tercer nivell */
+h3 {
+    color: #cc22ff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Caixa que conte el codi Python */
+pre {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/* Primera lletra del paragraf amb ID especial */
+#especial::first-letter {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+
+/* Primera classe */
+.important {
+    color: darkblue;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+/* Segona classe */
+.informacio {
+    color: darkgreen;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+
+/* Estil de la cita */
+blockquote {
+    border-left: 4px solid #cc22ff;
+    padding-left: 15px;
+}
+
+
+/* Estil dels enllacos */
+a {
+    color: blue;
+}
